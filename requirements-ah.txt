@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Additional packages imported by the A–H runners and adapters.
+ijson
+langmem
+langgraph
+langchain-openai

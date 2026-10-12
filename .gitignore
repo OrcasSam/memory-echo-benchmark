@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+gpuenv/
+*.pem
+*.key
+
+# Model and library caches
+.cache/
+.hf_cache/
+.matplotlib/
+nltk_data/
+
+# Local memory stores and databases
+.mem0*/
+mem0_store/
+tmp_mem0*/
+*.db
+*.sqlite
+*.sqlite3
+cached_memories*/
+
+# Logs, temporary outputs, and local render artifacts
+logs/
+output/
+tmp/
+.tmp*/
+*.log
+
+# Datasets and vendored frameworks are downloaded separately
+data/
+third_party/
+*.jsonl
+*.json
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.pth
+*.png
+
+# All experiment outputs are generated locally, never published here
+results*/
+results_*.json
+artifact/
+paper_arr/
+paper_arr_style_source/
+paper_memory_echo_iclr_cn/
+
+# Generated reports and papers
+*.docx
+*.pdf
+reports/
+build_*report*.py
+build_*brief.py
+build_memory_echo_iclr_cn_paper*.py
+create_*report*.py
+generate_*report*.py
+render_*.ps1
+tools/translate_papers_to_chinese.py
+continue_*.ps1
+finish_*.ps1
+show_*.ps1
+run_cross_model_*full.ps1
+EXPERIMENT_AH_COMPLETION_MATRIX.md
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
