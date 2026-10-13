@@ -1,6 +1,6 @@
 # Memory Echo Benchmark
 
-Code for studying how repeated retrieval and write-back can turn one outdated memory source into apparently independent evidence, and for evaluating a family–provenance–authority (FPA) serving rule. The current study compares A-MEM, Mem0, CoM, and LangMem across a five-stage memory lifecycle.
+This is the official implementation of the paper titled "Memory Echo in Single-Agent Long-Term Memory: Lifecycle Evaluation and Provenance-Guided Mitigation".
 
 > **Code-only repository.** No source datasets, transformed questions, model answers, retrieval traces, aggregate result tables, or generated plots are distributed here. The experiments read locally supplied inputs and write their outputs to ignored directories. This repository documents the pipeline.
 
